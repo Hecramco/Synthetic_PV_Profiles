@@ -1,0 +1,10 @@
+matplotlib==3.5.3
+networkx==3.0           # Not in requirements.txt
+numpy==1.24.2           
+pandas==1.5.3           # Had some conflicts with 1.4.4 and numpy 1.17.4
+pvlib==0.9.3
+scikit-learn==1.2.1
+scipy==1.9.1
+seaborn==0.12.2         # Not in requirements.txt
+statsmodels==0.13.5
+torch==1.13.1           # Not in requirements.txt
