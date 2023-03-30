@@ -1,0 +1,5 @@
+,scenario_name,client_num,model_name,params,kenrel,train_rmse,test_rmse,train_adj_r2,test_adj_r2,train_r2,test_r2,time_to_train
+0,14y,0,XGBoost GPU,"{'lambda': 1.6681005372000592, 'max_leaves': 5, 'n_estimators': 50, 'tree_method': 'gpu_hist'}",none,0.4118,0.4236,0.83,0.8128,0.8304,0.8196,99.1354808807373
+1,14y,0,Ridge_kernel,"{'alpha': 10.0, 'degree': 3}",polynomial,0.4209,0.4241,0.8223,0.8124,0.8228,0.8192,855.1854138374329
+2,14y,0,Ridge_kernel,"{'alpha': 0.1, 'gamma': 0.01}",rbf,0.4183,0.4247,0.8245,0.8119,0.825,0.8187,684.8668823242188
+3,14y,0,Ridge_kernel,{'alpha': 35.938136638046274},linear,0.4641,0.4593,0.784,0.7799,0.7846,0.7879,79.63025498390198
