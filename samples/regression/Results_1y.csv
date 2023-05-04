@@ -1,0 +1,5 @@
+,scenario_name,client_num,model_name,params,kernel,train_rmse,test_rmse,train_adj_r2,test_adj_r2,train_r2,test_r2,time_to_train,RSMSE_train,RSMSE_test
+0,1y,0,Ridge_kernel,"{'alpha': 4.641588833612779, 'degree': 3}",polynomial,0.2962,0.4503,0.909,0.7964,0.9123,0.8037,4.057231903076172,0.2962,0.44301214853912024
+1,1y,0,Ridge_kernel,"{'alpha': 0.1, 'gamma': 0.01}",rbf,0.3047,0.4557,0.9037,0.7915,0.9071,0.799,3.1490869522094727,0.3047,0.44832475258555876
+3,1y,0,XGBoost GPU,"{'lambda': 35.93813663804626, 'max_depth': 20, 'max_leaves': 3, 'tree_method': 'gpu_hist'}",none,0.2522,0.4581,0.934,0.7892,0.9364,0.7968,301.3556966781616,0.2522,0.45068590993953145
+2,1y,0,Ridge_kernel,{'alpha': 12.91549665014884},linear,0.3702,0.4771,0.8578,0.7714,0.863,0.7797,0.5434689521789551,0.3702,0.46937840565848166
